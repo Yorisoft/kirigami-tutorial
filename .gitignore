@@ -1,0 +1,4 @@
+**/.cache
+**/.qmlls.ini
+**/build
+**/compile_commands.json
