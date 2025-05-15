@@ -2,7 +2,7 @@ add_executable(kirigami-hello_0)
 
 ecm_add_qml_module(kirigami-hello_0
     URI
-    org.kde.tutorial
+    org.kde.tutorial_0
 )
 
 target_sources(kirigami-hello_0

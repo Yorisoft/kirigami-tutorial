@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.loadFromModule("org.kde.tutorial_0", "Main");
+    engine.loadFromModule("org.kde.tutorial_2", "Main");
 
     if (engine.rootObjects().isEmpty()) {
         return -1;
