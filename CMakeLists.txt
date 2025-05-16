@@ -33,12 +33,16 @@ add_subdirectory(lesson_0/src)
 add_subdirectory(lesson_1/src)
 add_subdirectory(lesson_2/src)
 add_subdirectory(lesson_3/src)
+add_subdirectory(lesson_4/src)
+add_subdirectory(lesson_5/src)
 
 install(PROGRAMS 
     lesson_0/org.kde.tutorial.desktop 
     lesson_1/org.kde.tutorial.desktop 
     lesson_2/org.kde.tutorial.desktop 
     lesson_3/org.kde.tutorial.desktop 
+    lesson_4/org.kde.tutorial.desktop 
+    lesson_5/org.kde.tutorial.desktop 
     DESTINATION ${KDE_INSTALL_APPDIR}
 )
 
