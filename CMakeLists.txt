@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(kirigami-tutorial)
+project(kirigami_tutorial)
 
 find_package(ECM 6.0.0 REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
@@ -47,3 +47,5 @@ install(PROGRAMS
 )
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
+
